@@ -1,0 +1,12 @@
+body
+{
+    background-color: lightslategray;
+    font-style: teko;
+}
+
+h1
+{
+    background-color: grey;
+    padding: 20px;
+    margin: 10px;
+}

@@ -1,0 +1,40 @@
+ 
+<html>
+    <head>
+      <title>Facial Recognition Webapp</title>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Kolker+Brush&family=Rubik+Iso&family=Teko&display=swap" rel="stylesheet">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+      <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+      <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+      <script src="main.js"></script>
+      <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+
+    <body>
+        <center>
+            <h1>Facial Recognition Webapp</h1>
+            <h3>The model is trained to identify the following objects.</h3>
+            <br>
+            <div><h3>Brother</h3></div>
+            <div><h3>Ananya</h3></div>
+            <hr>
+                <h2>Webcam View: </h2>
+                <span>
+                    <br>
+                <div id="camera"></div>
+                <button onclick="identify">identify</button>
+                <div id="pic"></div>
+                </span>
+                <br>
+                <br>
+                <br>
+                <h3 id="who">Family member: </h3>
+                <h3 id="what">Accuracy: </h3>
+        </center>
+    </body>
